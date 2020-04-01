@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created By Mahmoud El Shenawy (Email : Mr.Mahmoud.El.Shenawy@Gmail.com)-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <ProgressBar
+            android:id="@+id/fragment_collection_progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/refresh2">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/fragment_collection_recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    </RelativeLayout>
+</LinearLayout>

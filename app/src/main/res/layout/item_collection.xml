@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created By Mahmoud El Shenawy (Email : Mr.Mahmoud.El.Shenawy@Gmail.com)-->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.m.elshenawy.elite.Utils.SquareImage
+        android:id="@+id/item_collection_photo"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintDimensionRatio="H,0:0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:scaleType="centerCrop"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent_color">
+        <TextView
+            android:id="@+id/item_collection_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="@color/white"
+            android:layout_centerInParent="true"
+            android:textAlignment="center"/>
+        <TextView
+            android:id="@+id/item_collection_total_photos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"/>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

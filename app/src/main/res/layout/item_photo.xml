@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created By Mahmoud El Shenawy (Email : Mr.Mahmoud.El.Shenawy@Gmail.com)-->
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/item_photo_layout"
+    android:background="@color/transparent_color">
+    <com.m.elshenawy.elite.Utils.SquareImage
+        android:id="@+id/item_photo_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:background="@drawable/loading"/>
+</FrameLayout>

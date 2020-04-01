@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created By Mahmoud El Shenawy (Email : Mr.Mahmoud.El.Shenawy@Gmail.com)-->
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FFC107</color>
+    <color name="colorPrimaryLight">#C5CAE9</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorGray">#BDBDBD</color>
+    <color name="colorGrayDark">#757575</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent_color">#B3000000</color>
+    <color name="yellow">#FFE049</color>
+</resources>
