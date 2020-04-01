@@ -1,8 +1,8 @@
 # Elite Wallpaper 
-This App is Using REST-Api
+This App is Using REST-API
 
 # Tools
-I Used Some Libraries and Unsplash Api 
+I Used Some Libraries and Unsplash API
 1. Retrofit
 2. Log for Retrofit
 3. Okhttp
@@ -14,9 +14,8 @@ I Used Some Libraries and Unsplash Api
 9. Floating Action Bar 
 
 # Features
-You Can Put Wallpaper By Clicking On "Wallpaper" , It will Directly Set On Your Phone
-
-You Can Save Any Photos You Like By Clicking On "Favorite" , It Will Directly Store In Your Favorite Category
+- You Can Put Wallpaper By Clicking On "Wallpaper" , It will Directly Set On Your Phone
+- You Can Save Any Photos You Like By Clicking On "Favorite" , It Will Directly Store In Your Favorite Category
 
 # Screenshots 
 There are Some ScreenShots to Show How My App Look 
